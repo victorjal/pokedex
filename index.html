@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <img id="pokemonPic">
+        <p id="pokemonName"></p>
+        <p id="pokemonNum"></p>
+    </div>
+    <div>
+        <h3>Pokemones</h3>
+        <select name="pokemonList" id="pokemonList" onchange="details(this.value)" >
+        </select>
+        <input type="text" id="inputPokemon" onchange="search(this.value)" placeholder="search pokemon..." >
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
